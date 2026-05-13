@@ -1,0 +1,31 @@
+.Card_container{
+    background-color:green;
+    border-radius: 25px;
+    margin:10px;
+    display: flex;
+    justify-content: space-around;
+    clip-path: ellipse(100% 100% at 40% 0%);
+}
+.Card_container button{
+    background-color: greenyellow;
+    padding:20px 30px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(17, 33, 46);
+
+}
+.Card_container img{
+    width:600px;
+    background:transparent;
+
+}
+
+.Card_container h1{
+    font-size: 50px;
+    color: beige;
+}
+.Card_container p{
+    color: beige;
+    padding: 20px 0px;
+}
