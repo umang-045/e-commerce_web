@@ -32,16 +32,17 @@ const removeFromCart = (id: string | number) => {
       return updated;
     });
   };
-
-
+  let quantity:number=0;
+  for(const key in cart){
+     quantity+=cart[key];
+  }
   return (
     <>
       <div className='MainContainer' >
-        <Navbar />
+        <Navbar quantity={quantity} cart={cart} />
         <Card />
         <Products Productdata={productList} cart={cart} addToCart={addToCart} removeFromCart={removeFromCart} />
       </div>
-
     </>
   )
 }

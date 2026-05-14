@@ -1,7 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Navbar.css'
+import Cart from '../Cart/cart';
 
-const Navbar = () => {
+const Navbar = ({quantity,cart}) => {
+  const [ViewCart,setViewCart] = useState(false);
   return (
     <>
       <section>
@@ -19,8 +21,18 @@ const Navbar = () => {
         </form>
 
         <p> ⚡Order now and get it within 15 mint!</p>  
+        <div className='carticon' onClick={()=>{setViewCart(true)}}>
+          <img className='logo' src='/cart.jpg' ></img>
+        {quantity>0?<span className='quantity'>{quantity}</span>:null}
+        </div>
       </div>
       </section>
+      {ViewCart && (
+        <Cart cartitems={cart}
+        onClose={()=>
+          setViewCart(false)
+        }/>
+    )}
     </>
   )
 }

@@ -1,41 +1,47 @@
-section{
-    background-color:green;
+section {
+    background-color: green;
     border-radius: 20px;
     margin: 10px;
 }
-.Navcontainer{
-    display:flex;
+
+.Navcontainer {
+    display: flex;
     justify-content: space-around;
     align-items: center;
     text-align: center;
     position: sticky;
-    padding:10px 0;
+    padding: 10px 0;
 }
-.Navcontainer .info{
+
+.Navcontainer .info {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:50px;
+    gap: 50px;
 }
-.Navcontainer .Search_bar{
-    display:flex;
+
+.Navcontainer .Search_bar {
+    display: flex;
     width: 600px;
     background-color: white;
     border-radius: 10px;
 }
-.input_box{
-    border-radius:10px ;
+
+.input_box {
+    border-radius: 10px;
     height: 50px;
     flex-grow: 1;
-    background:transparent;
+    background: transparent;
     border: none;
     padding-left: 20px;
 }
-input::placeholder{
+
+input::placeholder {
     font-style: italic;
     margin-left: 2px;
 }
-button{
+
+button {
     background: transparent;
     border: none;
     outline: none;
@@ -44,22 +50,50 @@ button{
     align-items: center;
     padding-right: 15px;
 }
-.Navcontainer p{
+
+.Navcontainer p {
     font-weight: bold;
     font-style: italic;
     padding-left: 50px;
 }
-.companylogo{
+
+.companylogo {
     display: flex;
 }
 
-h1{
+h1 {
     font-size: 24px;
 }
-.logo{
+
+.logo {
     width: 50px;
     border-radius: 10px;
 }
-.icon{
-    width:20px;
+
+.icon {
+    width: 20px;
+}
+
+.carticon {
+    position: relative;
+    display: flex;
+    background-color: rgb(188, 252, 160);
+    padding: 5px;
+    font-size: 25px;
+    width:50px;
+    border-radius: 50%;
+}
+
+
+.quantity {
+    position: absolute;
+    bottom: 33px;
+    left: 30px;
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid green;
+    padding: 0 4px;
 }

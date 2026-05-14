@@ -3,7 +3,7 @@ export type Product={
   name: string;
   shopType: string;
   weight: string;
-  price: string;
+  price: number;
   image: string;
 }
 export const productList: Product[] = [
@@ -12,7 +12,7 @@ export const productList: Product[] = [
     name: "Beetroot",
     shopType: "Local shop",
     weight: "500 gm.",
-    price: "17.29$",
+    price: 17.29,
     image: "/beetroot.jpeg"
   },
   {
@@ -20,7 +20,7 @@ export const productList: Product[] = [
     name: "Italian Avocado",
     shopType: "Local shop",
     weight: "500 gm.",
-    price: "12.29$",
+    price: 12.29,
     image: "/italianavacado.jpg"
   },
   {
@@ -28,7 +28,7 @@ export const productList: Product[] = [
     name: "Coke",
     shopType: "Process food",
     weight: "500 gm.",
-    price: "14.29$",
+    price: 14.29,
     image: "/coke.jpeg"
   },
   {
@@ -36,7 +36,7 @@ export const productList: Product[] = [
     name: "Tomato",
     shopType: "Local Shop",
     weight: "500 gm.",
-    price: "16.29$",
+    price: 16.29,
     image: "/tomato.jpg"
   },
   {
@@ -44,7 +44,7 @@ export const productList: Product[] = [
     name: "Cold drinks",
     shopType: "Sprite",
     weight: "500 gm.",
-    price: "18.29$",
+    price: 18.29,
     image: "/sprite.jpeg"
   },
   {
@@ -52,7 +52,7 @@ export const productList: Product[] = [
     name: "Bread",
     shopType: "Snacks",
     weight: "200 gm.",
-    price: "4.50$",
+    price: 4.50,
     image: "/bread.jpeg"
   },
   {
@@ -60,7 +60,7 @@ export const productList: Product[] = [
     name: "Fresh Carrots",
     shopType: "Local shop",
     weight: "1 kg.",
-    price: "3.99$",
+    price: 3.99,
     image: "/carrot.jpeg"
   },
   {
@@ -68,7 +68,7 @@ export const productList: Product[] = [
     name: "Fresh Cucumbers",
     shopType: "Local shop",
     weight: "500 gm.",
-    price: "2.49$",
+    price: 2.49,
     image: "/cucumbers.jpeg"
   },
   {
@@ -76,7 +76,7 @@ export const productList: Product[] = [
     name: "Lay's Chips",
     shopType: "Barbecue",
     weight: "130 gm.",
-    price: "3.20$",
+    price: 3.20,
     image: "/lays.jpeg"
   },
   {
@@ -84,7 +84,7 @@ export const productList: Product[] = [
     name: "Fresh Cabbage",
     shopType: "Local shop",
     weight: "1 pc.",
-    price: "1.89$",
+    price: 1.89,
     image: "/cabbage.jpeg"
   }
 ];
