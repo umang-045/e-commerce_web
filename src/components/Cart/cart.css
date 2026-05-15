@@ -1,0 +1,67 @@
+.TableData{
+    width: 75%;
+    border-collapse: separate;
+    border-spacing:10px 10px;
+    text-align: center;
+    margin: 0 auto;
+}
+.TableData thead th {
+    border-bottom: 2px solid rgba(125, 138, 128, 0.174);
+}
+table td{
+    border-bottom :1px solid rgba(125, 138, 128, 0.174);
+}
+
+.cartitemImg{
+     width:50px;
+     height: 50px;
+     border-radius: 5px;
+}
+.productRow{
+    display: flex;
+    align-items: center;
+}
+tfoot{
+    color: red;
+    font-weight:bold;
+}
+.cartdisplayButton{
+    background-color: #f7fff3;
+    display:flex;
+    margin: 0 auto;
+    width:75%;
+    justify-content: space-around;
+}
+.cartClose{
+    text-align: center;
+    flex-grow: 1;
+    background-color: #cad7c4;
+    padding:20px 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(127, 54, 34);
+}
+
+.cart_overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+}
+
+.cart_main {
+ background: linear-gradient(135deg, #f7fff3, #dfffe0, #c8f7c5);
+    padding: 20px;
+    border-radius: 15px;
+    width: 80%;
+    max-width: 800px;
+    max-height: 90vh;
+    overflow-y: auto;
+}

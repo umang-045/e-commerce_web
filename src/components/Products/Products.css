@@ -35,12 +35,17 @@
 .productBox button {
     background-color: rgb(216, 217, 219);
     font-size: 24px;
+    font-weight: bold;
     text-align: center;
     color: rgb(178, 12, 12);
     padding: 10px 20px;
-    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
     clip-path: ellipse(100% 100% at 50% 0%);
 }
+
+
 
 .cartButtons {
     display: flex;

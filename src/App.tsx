@@ -36,10 +36,16 @@ const removeFromCart = (id: string | number) => {
   for(const key in cart){
      quantity+=cart[key];
   }
+
+  const [searchQuery,setsearchQuery]= useState(" ");
+  const searchResult =searchQuery.length>0 ? productList.filter((product)=>
+    product.name.toLowerCase().startsWith(searchQuery.toLowerCase())).slice(0,5):[];
+  
+
   return (
     <>
       <div className='MainContainer' >
-        <Navbar quantity={quantity} cart={cart} />
+        <Navbar quantity={quantity} cart={cart} setSearchQuery={setsearchQuery} searchResult={searchResult}/>
         <Card />
         <Products Productdata={productList} cart={cart} addToCart={addToCart} removeFromCart={removeFromCart} />
       </div>
