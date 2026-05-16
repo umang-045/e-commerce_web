@@ -12,7 +12,7 @@ export const productList: Product[] = [
     name: "Beetroot",
     shopType: "Local shop",
     weight: "500 gm.",
-    price: 17.29,
+    price: 30,
     image: "/beetroot.jpeg"
   },
   {
@@ -20,7 +20,7 @@ export const productList: Product[] = [
     name: "Italian Avocado",
     shopType: "Local shop",
     weight: "500 gm.",
-    price: 12.29,
+    price: 120,
     image: "/italianavacado.jpg"
   },
   {
@@ -28,7 +28,7 @@ export const productList: Product[] = [
     name: "Coke",
     shopType: "Process food",
     weight: "500 gm.",
-    price: 14.29,
+    price: 60,
     image: "/coke.jpeg"
   },
   {
@@ -36,7 +36,7 @@ export const productList: Product[] = [
     name: "Tomato",
     shopType: "Local Shop",
     weight: "500 gm.",
-    price: 16.29,
+    price: 25,
     image: "/tomato.jpg"
   },
   {
@@ -44,7 +44,7 @@ export const productList: Product[] = [
     name: "Cold drinks",
     shopType: "Sprite",
     weight: "500 gm.",
-    price: 18.29,
+    price: 50,
     image: "/sprite.jpeg"
   },
   {
@@ -52,7 +52,7 @@ export const productList: Product[] = [
     name: "Bread",
     shopType: "Snacks",
     weight: "200 gm.",
-    price: 4.50,
+    price: 25,
     image: "/bread.jpeg"
   },
   {
@@ -60,7 +60,7 @@ export const productList: Product[] = [
     name: "Fresh Carrots",
     shopType: "Local shop",
     weight: "1 kg.",
-    price: 3.99,
+    price: 40,
     image: "/carrot.jpeg"
   },
   {
@@ -68,7 +68,7 @@ export const productList: Product[] = [
     name: "Fresh Cucumbers",
     shopType: "Local shop",
     weight: "500 gm.",
-    price: 2.49,
+    price: 20,
     image: "/cucumbers.jpeg"
   },
   {
@@ -76,7 +76,7 @@ export const productList: Product[] = [
     name: "Lay's Chips",
     shopType: "Barbecue",
     weight: "130 gm.",
-    price: 3.20,
+    price: 20,
     image: "/lays.jpeg"
   },
   {
@@ -84,7 +84,88 @@ export const productList: Product[] = [
     name: "Fresh Cabbage",
     shopType: "Local shop",
     weight: "1 pc.",
-    price: 1.89,
+    price: 35,
     image: "/cabbage.jpeg"
+  },
+  {
+    id: 11,
+    name: "Red Onion",
+    shopType: "Local shop",
+    weight: "500 gm.",
+    price: 20,
+    image: "/red-onion.jpeg"
+  },
+  {
+    id: 12,
+    name: "Spinach",
+    shopType: "Local shop",
+    weight: "250 gm.",
+    price: 15,
+    image: "/spinach.jpeg"
+  },
+  {
+    id: 13,
+    name: "Pepsi",
+    shopType: "Process food",
+    weight: "500 ml.",
+    price: 55,
+    image: "/pepsi.jpeg"
+  },
+  {
+    id: 14,
+    name: "Whole Wheat Bread",
+    shopType: "Snacks",
+    weight: "400 gm.",
+    price: 45,
+    image: "/wheat-bread.jpeg"
+  },
+  {
+    id: 15,
+    name: "Fresh Broccoli",
+    shopType: "Local shop",
+    weight: "500 gm.",
+    price: 60,
+    image: "/broccoli.jpeg"
+  },
+  {
+    id: 16,
+    name: "Banana",
+    shopType: "Local shop",
+    weight: "1 dozen",
+    price: 50,
+    image: "/banana.jpeg"
+  },
+  {
+    id: 17,
+    name: "Pringles",
+    shopType: "Snacks",
+    weight: "165 gm.",
+    price: 150,
+    image: "/pringles.jpeg"
+  },
+  {
+    id: 18,
+    name: "Fresh Ginger",
+    shopType: "Local shop",
+    weight: "250 gm.",
+    price: 30,
+    image: "/ginger.jpeg"
+  },
+  {
+    id: 19,
+    name: "Orange Juice",
+    shopType: "Process food",
+    weight: "1 ltr.",
+    price: 120,
+    image: "/orange-juice.jpeg"
+  },
+  {
+    id: 20,
+    name: "Garlic",
+    shopType: "Local shop",
+    weight: "250 gm.",
+    price: 40,
+    image: "/garlic.jpeg"
   }
+
 ];
